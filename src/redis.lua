@@ -1147,7 +1147,9 @@ redis.commands = {
     psubscribe       = command('PSUBSCRIBE'),   -- >= 2.0
     punsubscribe     = command('PUNSUBSCRIBE'), -- >= 2.0
     publish          = command('PUBLISH'),      -- >= 2.0
-
+    -- geo
+    
+    geohash          = command('GEOHASH'),      -- >= 3.2
     -- redis scripting
     eval             = command('EVAL'),         -- >= 2.6
     evalsha          = command('EVALSHA'),      -- >= 2.6
