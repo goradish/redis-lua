@@ -1149,7 +1149,13 @@ redis.commands = {
     publish          = command('PUBLISH'),      -- >= 2.0
     -- geo
     
-    geohash          = command('GEOHASH'),      -- >= 3.2
+    geohash           = command('GEOHASH'),      -- >= 3.2
+    geoadd            = command('GEOADD'),       -- >= 3.2
+    geopos            = command('GEOPOS'),       -- >= 3.2
+    geodist           = command('GEODIST'),      -- >= 3.2
+    georadius         = command('GEORADIUS'),    -- >= 3.2
+    georadiusbymember = command('GEORADIUSBYMEMBER'),  -- >= 3.2
+    
     -- redis scripting
     eval             = command('EVAL'),         -- >= 2.6
     evalsha          = command('EVALSHA'),      -- >= 2.6
