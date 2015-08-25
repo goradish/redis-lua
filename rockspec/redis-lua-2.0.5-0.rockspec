@@ -1,9 +1,9 @@
 package = "redis-lua"
-version = "2.0.5-2"
+version = "2.0.5-4"
 
 source = {
     url = "git://github.com/goradish/redis-lua",
-    tag = "v2.0.5-2"
+    tag = "v2.0.5-4"
 }
  
 description = {
