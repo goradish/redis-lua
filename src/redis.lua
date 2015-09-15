@@ -396,7 +396,7 @@ function request.raw(client, buffer)
 end
 
 function request.multibulk(client, command, ...)
-    local args = {...}
+    local args = table.pack(...)
     local argsn = #args
     local buffer = { true, true }
 
